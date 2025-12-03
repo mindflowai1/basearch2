@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { BlurFade } from './magicui/blur-fade';
-import { ChevronLeft, ChevronRight, MapPin, Square } from 'lucide-react';
+import { MapPin, Square } from 'lucide-react';
 
 const projects = [
     {
@@ -62,14 +62,6 @@ const projects = [
 
 const Portfolio = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-
-    const handlePrevious = () => {
-        setCurrentIndex((prev) => (prev === 0 ? projects.length - 1 : prev - 1));
-    };
-
-    const handleNext = () => {
-        setCurrentIndex((prev) => (prev === projects.length - 1 ? 0 : prev + 1));
-    };
 
     // Autoplay - muda a cada 3 segundos
     useEffect(() => {

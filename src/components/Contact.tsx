@@ -1,6 +1,6 @@
 import { BlurFade } from './magicui/blur-fade';
 import ShimmerButton from './magicui/shimmer-button';
-import { Mail, Phone, MapPin, Clock, Send, CheckCircle, Instagram } from 'lucide-react';
+import { Mail, Phone, Clock, Send, CheckCircle, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const contactInfo = [
