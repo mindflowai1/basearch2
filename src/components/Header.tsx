@@ -25,15 +25,15 @@ const Header = () => {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                    ? 'bg-background/80 backdrop-blur-lg shadow-lg'
-                    : 'bg-transparent'
+                ? 'bg-background/80 backdrop-blur-lg shadow-lg'
+                : 'bg-transparent'
                 }`}
         >
             <div className="container-custom">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <a href="#home" className="text-2xl font-heading font-bold text-primary">
-                        Arquitetura<span className="text-secondary">.</span>
+                        Gabriela Viana<span className="text-secondary">.</span>
                     </a>
 
                     {/* Desktop Navigation */}
